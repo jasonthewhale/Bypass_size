@@ -26,6 +26,7 @@ contract Zero {
     constructor(address _target) {
         // you can also write your code here
         // this might help
+        // When contract is being created, code size (extcodesize) is 0.
        _target.call("");
     }
 }
